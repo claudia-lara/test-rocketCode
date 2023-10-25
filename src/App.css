@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.chat-bot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.chat-bot {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #0084FF;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.chat-messages {
+  padding: 10px;
+}
+
+.chat-messages input {
+  border: none;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.chat-description {
+  padding: 10px;
+}
+
+.chat-description  {
+  margin: 0;
+}
+/* Estilo para el botón */
+.custom-button {
+  display: block;
+  width: 300px; /* Ancho deseado */
+  margin: 0 auto; /* Centrar horizontalmente */
+  padding: 15px 20px; /* Espaciado interno */
+  background-color: #0084FF; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  font-size: 18px; /* Tamaño de fuente */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilo al pasar el mouse por encima del botón */
+.custom-button:hover {
+  background-color: #0066CC; /* Cambia el color al pasar el mouse por encima */
+}
+
+/* Estilo al hacer clic en el botón */
+.custom-button:active {
+  background-color: #004499; /* Cambia el color al hacer clic */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+.contact-details {
+  background-color: pink;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
